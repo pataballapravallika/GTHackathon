@@ -66,3 +66,45 @@ This project was built for the **GroundTruth Mini AI Hackathon** under the chall
             │ creatives + captions.txt   │
             └────────────────────────────┘
 
+---
+
+## 📂 Folder Structure
+
+GTHackathon/
+│── app.py
+│── creative_helpers.py
+│── requirements.txt
+│── .env 
+│── venv/ 
+│── README.md
+
+
+
+---
+
+## 🔧 Installation & Setup
+
+### 1️⃣ Clone repo
+
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+
+### Create virtual environment
+
+   python -m venv venv
+   venv\Scripts\activate      # Windows
+
+
+ ### 3️⃣ Install dependencies
+     pip install -r requirements.txt
+
+
+### 4️⃣ Add API keys
+
+   REPLICATE_API_TOKEN=your_replicate_token
+   HUGGINGFACE_API_TOKEN=your_huggingface_token
+
+## Run the App
+
+   streamlit run app.py
+
