@@ -14,8 +14,64 @@ Businesses spend weeks designing multiple ad creatives for different campaigns.
 
 This project was built for the **GroundTruth Mini AI Hackathon** under the challenge:  
 **H-003 | The AI Creative Studio (Generative AI & MarTech).**
+In modern digital marketing, brands spend days or even weeks designing variations of the same promotional images:
 
+Facebook ad creatives
+
+Instagram post variations
+
+Festive campaign graphics
+
+Product highlight ads
+
+Creative teams spend countless hours resizing, recoloring, re-styling, and rewriting captions for each variation.
+
+The Pain Point:
+
+This process is repetitive, slow, and expensive.
+If a brand needs fast turnarounds for promotions, their creative pipeline becomes a bottleneck.
+
+My Solution:
+
+I built Auto Creative Studio, a fully automated Generative AI system:
+
+👉 Upload a product image
+👉 Upload your brand logo
+👉 In seconds, receive 10+ ad-ready creatives + AI-written captions wrapped in a downloadable ZIP file.
+
+This turns a multi-day workflow into a 30-second automated pipeline.
 ---
+Expected Output for Marketers
+
+For the user:
+
+Input:
+
+Product image
+
+Brand logo
+
+Output (Automated):
+
+10+ high-quality ad creatives (SDXL-generated)
+
+Matching short ad captions (HuggingFace LLM)
+
+All creatives nicely packaged into a ZIP file
+
+Captions stored inside captions.txt
+
+These creatives can be used across:
+
+Meta Ads
+
+Google Display
+
+Social Media Posts
+
+E-Commerce Banners
+
+Seasonal Promotions
 
 ## ✨ Features
 - ✔ **Stable Diffusion XL (SDXL)** via Replicate for image generation  
